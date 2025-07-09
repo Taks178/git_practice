@@ -30,6 +30,9 @@ This repository is designed for practicing Git basic operations.
 
 ## 🚀 練習の始め方 / How to Start Practice
 
+### 📋 すぐに始めたい方 / Quick Start
+**[📖 クイックスタートガイド (QUICKSTART.md)](QUICKSTART.md)** を参照して、5分で基本操作を体験しましょう！
+
 ### 前提条件 / Prerequisites
 - Gitがインストールされていること
 - 基本的なコマンドライン操作ができること
@@ -54,11 +57,13 @@ This repository is designed for practicing Git basic operations.
 ```
 git_practice/
 ├── README.md                 # このファイル / This file
+├── QUICKSTART.md            # クイックスタートガイド / Quick start guide
 ├── 01_basic_operations/      # 基本操作練習 / Basic operations practice
 ├── 02_branching/            # ブランチ操作練習 / Branching practice
 ├── 03_conflicts/            # コンフリクト解決練習 / Conflict resolution practice
 ├── 04_remote_operations/    # リモート操作練習 / Remote operations practice
 ├── sample_files/            # 練習用サンプルファイル / Sample files for practice
+├── test.txt                 # 練習用テストファイル / Test file for practice
 └── .gitignore              # Git無視設定 / Git ignore settings
 ```
 
