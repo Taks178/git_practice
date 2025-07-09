@@ -1,0 +1,82 @@
+{
+  "project": {
+    "name": "Git Practice Repository",
+    "version": "1.0.0",
+    "description": "A repository for practicing Git operations",
+    "author": "Git Practice Team",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Taks178/git_practice.git"
+    }
+  },
+  "configuration": {
+    "environment": "development",
+    "debug": true,
+    "features": {
+      "logging": true,
+      "analytics": false,
+      "notifications": true
+    },
+    "database": {
+      "host": "localhost",
+      "port": 5432,
+      "name": "git_practice_db",
+      "ssl": false
+    },
+    "api": {
+      "baseUrl": "https://api.example.com",
+      "timeout": 5000,
+      "retries": 3
+    }
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "role": "admin",
+      "active": true,
+      "created_at": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "role": "developer",
+      "active": true,
+      "created_at": "2024-01-20T14:45:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "role": "tester",
+      "active": false,
+      "created_at": "2024-02-01T09:15:00Z"
+    }
+  ],
+  "settings": {
+    "theme": "light",
+    "language": "ja",
+    "timezone": "Asia/Tokyo",
+    "dateFormat": "YYYY-MM-DD",
+    "timeFormat": "24h",
+    "notifications": {
+      "email": true,
+      "push": false,
+      "sms": false
+    },
+    "privacy": {
+      "dataCollection": false,
+      "cookieConsent": true,
+      "analyticsOptOut": true
+    }
+  },
+  "metadata": {
+    "lastUpdated": "2024-07-09T20:00:00Z",
+    "configVersion": "1.2.0",
+    "checksum": "a1b2c3d4e5f6",
+    "tags": ["practice", "git", "learning", "tutorial"]
+  }
+}

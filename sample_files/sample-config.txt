@@ -1,0 +1,73 @@
+# Git Practice Configuration File
+# このファイルはGit操作の練習用設定ファイルです
+
+[application]
+name = Git Practice Repository
+version = 1.0.0
+debug = true
+environment = development
+
+[server]
+host = localhost
+port = 8080
+ssl_enabled = false
+max_connections = 100
+
+[database]
+driver = postgresql
+host = localhost
+port = 5432
+database = git_practice_db
+username = practice_user
+password = practice_pass
+pool_size = 10
+timeout = 30
+
+[logging]
+level = info
+file = logs/application.log
+max_size = 10MB
+backup_count = 5
+format = %(asctime)s - %(name)s - %(levelname)s - %(message)s
+
+[cache]
+enabled = true
+type = redis
+host = localhost
+port = 6379
+ttl = 3600
+
+[email]
+smtp_server = smtp.example.com
+smtp_port = 587
+username = noreply@example.com
+password = email_password
+use_tls = true
+
+[features]
+user_registration = true
+password_reset = true
+email_verification = false
+two_factor_auth = false
+rate_limiting = true
+
+[api]
+base_url = https://api.example.com
+timeout = 30
+retry_attempts = 3
+rate_limit = 1000
+
+[monitoring]
+enabled = true
+metrics_endpoint = /metrics
+health_check_endpoint = /health
+alert_email = admin@example.com
+
+[security]
+secret_key = your-secret-key-here
+jwt_expiration = 3600
+password_min_length = 8
+session_timeout = 1800
+
+# コメント: この設定ファイルはGitの練習用です
+# 実際のプロジェクトでは、機密情報は環境変数や別のファイルに保存してください
