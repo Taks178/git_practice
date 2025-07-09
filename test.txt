@@ -1,1 +1,34 @@
-test
+# Git Practice Test File
+
+このファイルは、Git操作の練習用テストファイルです。  
+This file is for testing Git operations during practice.
+
+## 使用例 / Usage Examples
+
+このファイルは以下の練習に使用できます：
+
+1. **基本操作の練習**
+   - ファイルの編集
+   - 変更のコミット
+   - 履歴の確認
+
+2. **ブランチ練習**
+   - 異なるブランチでの編集
+   - マージの練習
+
+3. **コンフリクト練習**
+   - 意図的なコンフリクトの作成
+   - 解決の練習
+
+## 練習ログ / Practice Log
+
+練習した内容をここに記録してください：
+
+- [ ] git add の練習
+- [ ] git commit の練習  
+- [ ] git log の練習
+- [ ] git branch の練習
+- [ ] git merge の練習
+
+---
+最終更新: 2024-07-09
