@@ -96,6 +96,19 @@ git_practice/
 - [ ] コンフリクトを適切に解決できる
 - [ ] チーム開発でGitを効果的に活用できる
 
+## 📊 Additional Resources / 追加リソース
+
+### Tenstorrent tt-metal vLLM Investigation Report
+
+このリポジトリには、Tenstorrent tt-metalプロジェクトにおけるvLLM統合の調査レポートが含まれています。  
+This repository includes an investigation report on vLLM integration with Tenstorrent tt-metal.
+
+📖 **[調査レポート索引 / Investigation Index](INVESTIGATION_INDEX.md)**
+
+主な調査内容 / Main investigation topics:
+- Tenstorrent製品でvLLMを稼働できるか / Can vLLM run on Tenstorrent products?
+- 外部（Claude Code等）から呼び出せるか / Can it be called from external services?
+
 ---
 
 Happy Git practicing! 🎉
